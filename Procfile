@@ -1,1 +1,1 @@
-web: gunicorn demo53.wsgi --log-file
+web: bundle exec rails server -p $PORT
